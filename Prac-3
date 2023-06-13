@@ -1,0 +1,15 @@
+Github repo for [prac 3](https://github.com/aidenlignieres/StopwatchApp)
+
+During the development, I addressed an issue related to the StopwatchActivity class in an Android application. 
+The initial problem was with the settingsClicked() method, which was causing an ActivityNotFoundException when launching the SettingsActivity.
+
+To resolve the issue, I made the following changes:
+
+Modified the settingsClicked() method to use an ActivityResultLauncher for starting the SettingsActivity, ensuring that the activity is declared in the AndroidManifest.xml file.
+Updated the onActivityResult() method to handle the result returned by the SettingsActivity.
+After applying these changes, the app was able to launch the SettingsActivity successfully.
+
+Additionally, I encountered another issue in the SettingsActivity class, specifically in the doneClicked() method, where a NumberFormatException was occurring. 
+To fix this, I checked if the input string was empty before parsing it as an integer.
+
+By making these modifications, I was able to address the issues and prevent the app from crashing.
