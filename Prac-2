@@ -1,1 +1,14 @@
+Github repo for [prac 2](https://github.com/aidenlignieres/CP3406-Quicksumapp)
 
+While learning the use of LinearLayoutCompat as the root layout, which allowed for a vertical orientation. 
+The XML file defined various UI elements, including a TextView to display the sum, and a TableLayout containing multiple TableRows. 
+Each TableRow held three Buttons with different numeric values, except for the last TableRow, which contained a single Button labeled "Clear." 
+The XML file utilized attributes like layout_width, layout_height, layout_weight, textSize, and onClick to specify the appearance and behavior of the UI elements.
+
+With the extention of the AppCompatActivity class, indicating it was an activity within an Android application. 
+In the onCreate method, the layout file activity_main.xml was set as the content view for the activity. 
+This connection between the Java code and the XML layout allowed for the interaction between the UI and the logic.
+
+The buttonClicked method caught my attention as it handled the click events of the Buttons defined in the XML file. 
+By extracting the text of the clicked Button and converting it to an integer, the code incremented the sum variable accordingly. 
+If the text was "Clear," the sum was reset to zero. The updated sum was then displayed in the TextView.
