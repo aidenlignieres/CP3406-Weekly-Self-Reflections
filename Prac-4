@@ -1,1 +1,11 @@
+Github repo for [prac 4](https://github.com/aidenlignieres/ReflexCheckerApp)
 
+During the development, I addressed an issue related to the Reflex Checker App class in an Android application. 
+The initial problem was with importing the required images, which was causing an ActivityNotFoundException when launching the app.
+
+After getting the images add the other problem was the consistent changes of names for sting variables I had.
+
+Additionally, When making the GameActivity it wasn't that hard but after a bit of time I got lost in some of the aspects like why are we dividing the seconds by 1e9 and why are we drawing so many baselines?
+After a time I then understood why and that was the divide by 1e9 allows us to get the most account time to a second/millisecond while the baseline is used to display/initialize the images which I going to be used.
+
+Understanding the requirement of having the drawable allows displaying of images upon initializing the activity on creat.
