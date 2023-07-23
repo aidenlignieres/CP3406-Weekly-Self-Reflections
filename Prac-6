@@ -1,6 +1,8 @@
-As something for you to have recorded to mark.
+Github repo for [prac 6](https://github.com/aidenlignieres/CP3406-FoleyuApp)
 
-While having a look at the prac it would have allowed me to be able to think of different apps for education 
-purposes but since I was procrastinated and only started getting help for time management for my assignment I should have asked for help soon.
+During the development, of the Foleyuapp (FoleyApp typo on creation for app name) there were mind problems and good insights which should have been used in my second assignment.
 
-This will be on every prac after prac 5 and I acknowledge if I have to re-do the subject for my own problems.
+The problem which occurred was ensuring the second activity which would be used wasn't the parent activity to allow the user to go back to the main activity by closing and re-opening the app.
+the second problem was the viewbind was enabled which that took a good couple of minutes for me to find out how to fix, this affected 2 classes and 1 enum.
+
+The downside of myself not being able to be more proactive in this subject to complete the pracs I could have implemented sound to my final assignment which could have kept the kids more entertained.
