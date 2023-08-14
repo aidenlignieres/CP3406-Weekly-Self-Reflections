@@ -1,1 +1,12 @@
+Github repo for [prac 7](https://github.com/aidenlignieres/CP3406-SpiritLevelApp.git)
 
+During the development, of the SpiritLevel there were 2 problems and good insights which should have been used in my second assignment.
+
+The problem was using the Android document supplied for the prac to finish the app would work so some fixes had to be done and that was to use some of the code in the prac to fix. 
+The other problem was the display of the screen since it would work and that was because of a very simple mistake which was defining it in MainActivity as the display wouldn't work without the SpiritLevelView
+which was defined so a simple one-line for code to fix that resolved the problem. (spiritLevelView = findViewById(R.id.spiritLevelView);)
+
+(link from prac https://developer.android.com/guide/topics/sensors/sensors_overview#sensors-monitor)
+
+The downside of myself not being able to be more proactive in this subject to complete the pracs I could have implemented sound to my final assignment which could have kept the kids more entertained.
+The reason for the late submission was the no time frame given and the start of the semester which is still a terrible excuse for someone who had plenty of time over the holidays to complete it.
