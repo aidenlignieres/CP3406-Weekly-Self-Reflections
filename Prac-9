@@ -1,1 +1,10 @@
+Github repo for [prac 9](https://github.com/aidenlignieres/CP3406-GuessTheCeleb-App/tree/Part-2)
 
+During the development, of the GuessTheCeleb part 2, some of the aspects were quite reflective of what could have helped build my assignment app to a high standard.
+
+While following the prac there were some steps that gave vague instructions. A problem that I had with this prac and almost every other prac was the XML pages changing 
+from a normal LinearLayout to a fragment with the linearLayout inside it. During the whole time of developing the app, there were problems such as no difficulty enum or 
+forgetting to ID fragments, text view, spinner, and buttons, These fixes are want took most of the time since it was a challenge to find the problem or implement a way to 
+resolve the problem.
+
+The Enum problem was resolved by making a separate class to hold it. for the other problems, it was a simple fix but renaming/adding ID to the required locations.
