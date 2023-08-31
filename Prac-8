@@ -1,1 +1,7 @@
+Github repo for [prac 8](https://github.com/aidenlignieres/CP3406-GuessTheCeleb-App)
+
+During the development, of the GuessTheCeleb which is being split into 2 parts, some of the aspects were quite reflective of what could have helped build my assignment app to a high standard.
+
+While following the prac there were some steps that gave vague instructions and Task 2 Step 5 was talking about a styles.xml which was shared since we have a themes.xml which has an almost exact look alike.
+A problem that I had with this prac and almost every other prac was the XML pages changing from a normal LinearLayout to a fragment with the linearLayout inside it. 
 
